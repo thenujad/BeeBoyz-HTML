@@ -1,0 +1,828 @@
+/* Reset some default browser styles */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    
+    background-image: url('./images/Background.jpg');
+    background-size: cover;
+    color: #FFFFFF;
+  }
+  
+  /* Navigation */
+/* Navigation */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-image: url('./images/navigation\ Menu.png'); /* Add your background image URL here */
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    position: relative;
+    margin-bottom: 50px; /* Add space between navigation and content */
+    margin-left: 80px; /* Add left margin */
+    margin-right: 80px; /* Add right margin */
+    position: relative;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10); /* Add a black margin using box-shadow */
+  }
+  
+
+  .logo img {
+    width: 100px; /* Adjust the width as needed */
+    height: 62px;
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin: 0 15px;
+  }
+  
+  .menu a {
+    font-family: 'Sigmar One';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 15px;
+  }
+  
+  .menu a:hover {
+    background-image: url('./images/button.png');
+    color: #000000;
+    border-radius: 16px;
+    width: 100px;
+  }
+  
+  .social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+  }
+  
+  .welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+  }
+  
+  img {
+    max-width: 100%;
+    margin-top: 1rem;
+    border-radius: 16px;
+}
+
+.header{
+    max-width: 50%;
+    margin-top: 1rem;
+    border-radius: 16px;
+}
+  .content-section {
+    text-align: center;
+    padding: 50px; /* Add your content section background color */
+  }
+  
+  .welcome-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-section p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    align-items: center;
+    margin-top: 32px;
+  }
+  
+  .mint-button {
+    
+    background-image: url('./images/Mint.png');
+    background-size: cover;
+    border-radius: 16px;
+    width: 200px;
+    height: 64px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10); /* Add a black margin using box-shadow */
+
+  }
+  
+  
+  .separator img {
+    width: 60px; /* Adjust the width of the separator image */
+    height: auto;
+  }
+
+  .about-us-section {
+    padding: 100px 0; /* Adjust the padding as needed */ /* Add your background color here */
+  }
+  
+  .about-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('/images/faq.png'); /* Add your background image URL here */
+    background-size: cover;
+    border-radius: 80px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10); /* Add your box shadow properties */
+    padding: 40px;
+    margin: 0 120px; /* Add the left and right margins */
+  }
+  
+  .image-side {
+    flex: 40%; /* Image takes 30% of the box */
+    padding-right: 20px; /* Add some space between image and content */
+  }
+  
+  .content-side {
+    flex: 60%; /* Content takes 70% of the box */
+  }
+  
+  
+  .content-side p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding-top: 40px;
+  }
+  
+  .road-map-section {
+    padding: 100px 0; 
+    align-items: center;/* Adjust the padding as needed */
+    
+  }
+  
+  .road-map-box {
+    background: linear-gradient(180deg, #FEAA0C 0%, #F0C423 100%);
+    border-radius: 80px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10);
+    padding: 80px;
+    margin: 0 80px;
+   /* Margins on both sides */
+  }
+  
+ 
+  
+  .content {
+    display: flex;
+    margin-top: 20px; /* Add spacing between header and content */
+  }
+  
+  .content p {
+    text-align: center;
+    color: #000;
+    font-family: Titillium Web;
+font-size: 18px;
+font-weight: 600;
+line-height: 29px;
+letter-spacing: 0em;
+
+  }
+  
+  .content img {
+    max-width: 100%; /* Make sure the image fits within its container */
+    margin-left: 20px;
+    align-items: center; /* Add spacing between paragraph and image */
+  }
+
+  /* Styles for Characters section */
+.characters-section {
+  text-align: center;
+  /* Add your background image URL here */
+ 
+  padding: 100px 0;
+}
+
+.characters-box {
+  background-image: url('/images/faq.png'); /* Add your background image URL here */
+  background-size: cover;
+  border-radius: 80px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10); /* Add your box shadow properties */
+  padding: 40px;
+  margin: 0 120px;
+  text-align: center;
+}
+
+.characters-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.characters-box p {
+  margin-bottom: 30px;
+  margin-top: 20px;
+  font-family: Titillium Web;
+font-size: 18px;
+line-height: 29px;
+letter-spacing: 0em;
+
+
+}
+
+
+.character-card-slider-container {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.character-card-slider-carousel {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s;
+  margin-top: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  
+}
+
+.character-card-slide {
+  flex: 0 0 -100%;
+  transition: transform 0.3s;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-left {
+  transform: translateX(-25%) rotate(-30deg) scale(0.8);
+  z-index: 1;
+  color: #fff;
+  left: 120px;
+
+}
+
+.card-center {
+  transform: scale(1.2);
+  z-index: 2;
+}
+
+.card-right {
+  transform: translateX(25%) rotate(30deg) scale(0.8);
+  z-index: 1;
+  right: 120px;
+}
+
+.character-card {
+  position: relative;
+  background-color: #000000;
+  border-radius: 24px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.character-card img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.character-card h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+.card-slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.card-prev-button,
+.card-next-button {
+  background-color: transparent;
+  border: none;
+  padding: 20;
+  cursor: pointer;
+}
+
+.card-prev-button img,
+.card-next-button img {
+  width: 48px;
+  height: 48px;
+}
+
+.card-prev-button:focus,
+.card-next-button:focus {
+  outline: none;
+}
+
+
+
+/* Styles for Our Members section */
+.our-members-section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.our-members-box {
+  border-radius: 80px;
+  background: linear-gradient(180deg, #FEAA0C 0%, #F0C423 100%);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10);
+  padding: 80px;
+  margin: 0 80px;
+}
+
+.our-members-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.our-members-box p {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  text-align: center;
+  font-family: Titillium Web;
+  font-size: 18px;
+  line-height: 29px;
+  letter-spacing: 0em;
+  color: #000000;
+}
+
+/* Additional styling as needed */
+
+.slider-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  transition: transform 0.3s;
+  flex-wrap: nowrap;
+}
+
+.slide {
+  flex: 0 0 calc(100% / 3);
+  margin: 0 10px;
+}
+
+.card {
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.card img {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 18px;
+  margin: 0;
+  font-family: Sigmar One;
+font-size: 32px;
+font-weight: 400;
+letter-spacing: 0em;
+color: #0E0E0E;
+
+}
+.card h4{
+  font-family: Sigmar One;
+font-size: 24px;
+font-weight: 400;
+letter-spacing: 0em;
+text-align: center;
+color: #93731C;
+margin-top: 0px;
+
+
+}
+/* Styles for Slider Navigation Buttons */
+.slider-controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.prev-button,
+.next-button {
+  background-color: transparent;
+  border: none;
+  padding: 80;
+  cursor: pointer;
+}
+
+.prev-button img,
+.next-button img {
+  width: 48px;
+  height: 48px;
+}
+
+/* Additional styling as needed */
+
+/* Styles for Social Icons */
+.social-icon {
+  display: flex;
+  justify-content: center;
+  margin: 0 40px; /* Adjust this value to reduce space */
+  background: #44413C;
+  border-radius: 24px;
+
+}
+
+.social-icon a {
+  display: inline-block;
+  overflow: hidden;
+ transition: transform 0.2s;
+}
+
+.social-icon a:hover {
+  transform: scale(1.1);
+}
+
+.social-icon img {
+  width: 60px;
+  
+}
+
+/* Additional styling as needed */
+
+
+/* Additional styling as needed */
+
+ 
+
+
+/* Styles for FAQ section */
+.faq-section {
+  padding: 100px 0;
+  background-size: cover;
+  text-align: center;
+}
+
+.faq-box {
+  background-image: url('/images/faq.png'); /* Add your background image URL here */
+  background-size: cover;
+  border-radius: 80px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10);
+  padding: 40px;
+  margin: 0 120px; /* Add the left and right margins */
+}
+.faq-box h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.faq-box p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.faq-box .faq img{
+
+  max-width: 25%;
+}
+/* Styles for FAQ cards */
+.faq-card {
+  border: 1px solid #ddd;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  transition: all 0.3s;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.faq-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+.faq{
+  max-width: 15%;
+}
+.faq-toggle {
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(255, 255, 255);
+  
+}
+
+.faq-toggle.open {
+  background-color: #FEAA0C;
+}
+
+.faq-content {
+  padding: 0 20px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+}
+
+.faq-card h3 {
+  font-family: Sigmar One;
+color: #000000;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.faq-card p {
+  font-family: Sigmar One;
+font-size: 30px;
+font-weight: 400;
+line-height: 49px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+
+/* Styles for Video section */
+.video-section {
+  position: relative;
+  height: 100vh;
+ text-align: center;
+  color: #fff;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.video-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  height: 80px;
+  background-color: rgb(255, 255, 255,255);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.play-button:before {
+  content: "\25B6"; /* Unicode character for play symbol */
+  font-size: 30px;
+  color: #FB9D33;
+}
+
+.video-content {
+  position:absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+}
+
+.video-content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.video-content p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.join_discord {
+    
+  background-image: url('./images/discord.png');
+  background-size: cover;
+  border-radius: 16px;
+  width: 250px;
+  height: 64px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 10), 0px -5px 10px rgba(0, 0, 0, 10); /* Add a black margin using box-shadow */
+
+}
+  /* Styles for Footer section */
+.footer-section {
+  background-size: cover;
+  background-color: #000;
+  text-align: center;
+  padding: 100px 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-links {
+  margin-bottom: 30px;
+}
+
+.footer-links a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 16px;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover {
+  color: #FEAA0C;
+}
+
+.social-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  
+  text-align: center;
+  line-height: 40px;
+  transition: background-color 0.3s;
+}
+
+.social-icons a img {
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+.final{
+  background-color: #6C6C65;
+}
+
+
+
+
+
+/* Default styles for large screens */
+/* Place your existing styles here */
+
+/* Media Query for Tablets */
+@media screen and (max-width: 1024px) {
+  .navigation,
+  .about-box,
+  .road-map-box,
+  .characters-box,
+  .our-members-box,
+  .faq-box,
+  .video-section,
+  .footer-section {
+    margin: 0 40px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  .navigation,
+  .about-box,
+  .road-map-box,
+  .characters-box,
+  .our-members-box,
+  .faq-box,
+  .video-section,
+  .footer-section {
+    margin: 0 20px;
+  }
+
+  .welcome-section h1 {
+    font-size: 28px;
+  }
+
+  .welcome-section p {
+    font-size: 16px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Media Query for Smaller Mobile Devices */
+/* Media Query for Tablets */
+@media screen and (max-width: 1024px) {
+  /* Adjust styles for tablet devices */
+
+  /* Navigation */
+  .navigation {
+    margin: 0 40px;
+  }
+
+  /* Other sections */
+  .about-box,
+  .road-map-box,
+  .characters-box,
+  .our-members-box,
+  .faq-box,
+  .video-section,
+  .footer-section {
+    margin: 0 40px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Media Query for Mobile Devices */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for mobile devices */
+
+  /* Navigation */
+  .navigation {
+    margin: 0 20px;
+  }
+
+  /* Other sections */
+  .about-box,
+  .road-map-box,
+  .characters-box,
+  .our-members-box,
+  .faq-box,
+  .video-section,
+  .footer-section {
+    margin: 0 20px;
+  }
+
+  /* Welcome Section */
+  .welcome-section h1 {
+    font-size: 28px;
+  }
+  .welcome-section p {
+    font-size: 16px;
+  }
+
+  /* Adjust other styles as needed */
+}
+
+/* Media Query for Smaller Mobile Devices */
+@media screen and (max-width: 480px) {
+  /* Adjust styles for smaller mobile devices */
+
+  /* Navigation */
+  .navigation {
+    margin: 0 10px;
+  }
+
+  /* Other sections */
+  .about-box,
+  .road-map-box,
+  .characters-box,
+  .our-members-box,
+  .faq-box,
+  .video-section,
+  .footer-section {
+    margin: 0 10px;
+  }
+
+  /* Welcome Section */
+  .welcome-section h1 {
+    font-size: 24px;
+  }
+  .welcome-section p {
+    font-size: 14px;
+  }
+
+  /* Adjust other styles as needed */
+}
